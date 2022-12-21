@@ -259,7 +259,7 @@ footer p {
 
 }
 
-/* ******* RESPONSIVE PETITE FENETRE *********************** */
+/* ******* RESPONSIVE *********************** */
 
 @media screen and (max-width: 1000px) {
 
@@ -306,55 +306,3 @@ header h1 {
 
     
 } 
-
-/* ******************* RESPONSIVE SMARTPHONE ******************************* */
-
-@media screen and (max-width: 380px) {
-
-    header h1 {
-            font-size: 50px;
-        }
-    
-        header h2 {
-            font-size: 20px;
-        }
-    
-        header {
-            height: 150px;
-        }
-        
-    
-        .wrapper {
-            grid-template-columns: 1fr;
-        }
-    
-        .wrapper aside {
-            order : 1;
-        }
-    
-        aside img {
-            display:flex;
-        }
-    
-        .wrapper #flex-container {
-            flex-direction: column;
-        }
-    
-        .flex-container-portfolio {
-            flex-direction: column;
-        }
-    
-        nav a {
-            font-size: 15px;
-        }
-    
-        nav {
-            z-index: 1;
-            height: 80px;
-            
-            
-            
-        }
-    
-        
-    } 
