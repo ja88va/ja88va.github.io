@@ -334,7 +334,7 @@ header h1 {
     }
 
     aside img {
-        display: flex;
+        display:flexbox;
     }
 
     .wrapper #flex-container {
