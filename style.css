@@ -308,9 +308,9 @@ header h1 {
 } 
 
 
-* ******* RESPONSIVE PORTABLE *********************** */
+/* ******* RESPONSIVE PORTABLE *********************** */
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
 
 header h1 {
         font-size: 50px;
@@ -334,7 +334,7 @@ header h1 {
     }
 
     aside img {
-        display: none;
+        display: flex;
     }
 
     .wrapper #flex-container {
@@ -347,11 +347,13 @@ header h1 {
 
     nav a {
         font-size: 15px;
+        
+        
     }
 
     nav {
-        height: 80px;
         z-index: 1;
+        height: 80px;
     }
 
     
